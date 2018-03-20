@@ -1,0 +1,18 @@
+#
+analogLib vpulse symbol
+V1
+#
+analogLib vdc symbol
+V0
+#
+analogLib cap symbol
+C0
+#
+EE4615 inverter symbol
+I0
+#ISCELL
+basic vdd symbol
+I9
+#ISCELL
+basic gnd symbol
+I10

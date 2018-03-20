@@ -1,0 +1,16 @@
+// Exercise 3.11
+// Run with:
+//     spectre 3_11.scs
+//     wavescan -datadir 3_11.raw
+//
+simulator lang=spectre
+include "g25_scs.lib"
+vdd (vdd 0) vsource dc=2.5 
+vin ( in 0) vsource dc=2.5 
+r1 (vdd out_long) resistor r=8K
+r2 (vdd out_short) resistor r=8k
+m1 (out_long in 0 0) nmos l=0.5u w=2u
+m2 (out_short in 0 0) nmos l=0.25u w=1u
+Inputsweep dc param=dc dev=vin start=0 stop=2.5 step=0.1 
+save vin out_long out_short
+// end

@@ -1,0 +1,15 @@
+
+Running simulation in directory: "/home/sandervanleeuw/EE4615/work_space/cell_design/_inverter_verification_run1".
+
+
+Running netlist
+Begin Incremental Netlisting Mar 16 16:07:26 2018
+ERROR: Netlister: unable to descend into any of the views defined in the view list: "hspice cmos_sch schematic" for instance V1 in cell _inverter_verification.
+Either add one of these views to: Library: analogLib Cell: vpulse or modify the view list to contain an existing view.
+End netlisting Mar 16 16:07:26 2018
+ERROR (OSSHNL): Error(s) found during netlisting. The netlist may be corrupt
+ or may not be produced at all.
+To generate correct netlist, fix the errors and re-netlist.
+
+
+Simulation did not complete.
