@@ -1,0 +1,26 @@
+#
+analogLib vdc symbol
+V2
+#
+analogLib pcapacitor symbol
+C0
+#
+analogLib presistor symbol
+R1
+#
+analogLib vpulse symbol
+V0
+V1
+#
+EE4615 nor symbol
+I0
+#ISCELL
+basic gnd symbol
+I1
+#ISCELL
+analogLib gnd symbol
+I4
+I2
+#ISCELL
+analogLib vdd symbol
+I3

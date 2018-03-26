@@ -1,0 +1,8 @@
+include /opt/cad/cadence/DesignKits/UMC090_EE4610/desginkit/cds.lib
+DEFINE master ./master 
+DEFINE pCells ./pCells 
+DEFINE tutorial ./tutorial 
+DEFINE basic ${CDS_INST_DIR}/tools/dfII/etc/cdslib/basic 
+DEFINE cellTechLib ./cellTechLib 
+DEFINE sample ${CDS_INST_DIR}/tools/dfII/samples/cdslib/sample 
+DEFINE ROD ./ROD

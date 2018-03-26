@@ -1,0 +1,11 @@
+#
+analogLib presistor spectre
+R0
+#
+analogLib cap symbol
+C0
+#ISCELL
+basic iopin symbolr
+PIN3
+PIN1
+PIN0
