@@ -14,7 +14,7 @@ basic opin symbol
 PIN2
 #ISCELL
 analogLib gnd symbol
-I2
+I1
 #ISCELL
 basic ipin symbol
 PIN1
