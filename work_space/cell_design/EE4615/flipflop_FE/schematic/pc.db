@@ -1,14 +1,4 @@
 #
-EE4615 standard_load symbol
-I3
-#
-analogLib vpulse symbol
-V2
-V1
-#
-analogLib vdc symbol
-V0
-#
 umc90nm N_10_SP spectre
 NM4
 NM3
@@ -29,3 +19,11 @@ I1
 #ISCELL
 analogLib vdd symbol
 I2
+#ISCELL
+basic ipin symbol
+PIN1
+PIN0
+#ISCELL
+basic opin symbol
+PIN3
+PIN2

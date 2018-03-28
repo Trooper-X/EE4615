@@ -1,0 +1,20 @@
+#
+analogLib vpulse symbol
+V1
+V2
+#
+analogLib vdc symbol
+V0
+#
+EE4615 standard_load symbol
+I1
+#
+EE4615 flipflop_FE symbol
+I0
+#ISCELL
+analogLib vdd symbol
+I2
+#ISCELL
+analogLib gnd symbol
+I4
+I3
