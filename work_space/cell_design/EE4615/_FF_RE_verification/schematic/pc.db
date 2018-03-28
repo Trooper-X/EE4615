@@ -1,0 +1,19 @@
+#
+EE4615 flipflop_RE symbol
+I12
+#
+analogLib vpulse symbol
+V2
+V1
+#
+analogLib vdc symbol
+V0
+#
+analogLib cap symbol
+C0
+#ISCELL
+basic vdd symbol
+I9
+#ISCELL
+basic gnd symbol
+I10
