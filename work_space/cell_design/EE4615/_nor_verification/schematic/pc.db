@@ -1,12 +1,9 @@
 #
+EE4615 standard_load symbol
+I5
+#
 analogLib vdc symbol
 V2
-#
-analogLib pcapacitor symbol
-C0
-#
-analogLib presistor symbol
-R1
 #
 analogLib vpulse symbol
 V0
