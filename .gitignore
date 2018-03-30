@@ -1,3 +1,6 @@
+# Locks...
+*.cdslck
+
 # Prerequisites
 *.d
 
