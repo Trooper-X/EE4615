@@ -1,0 +1,19 @@
+#
+EE4615 inverter symbol
+I4
+I7
+I6
+I5
+I3
+#
+analogLib vpulse spectre
+V1
+#
+analogLib vdc spectre
+V0
+#ISCELL
+analogLib gnd symbol
+I0
+#ISCELL
+analogLib vdd symbol
+I1
