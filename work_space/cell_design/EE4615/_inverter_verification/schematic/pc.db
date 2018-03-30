@@ -1,15 +1,15 @@
 #
+EE4615 inverter symbol
+I12
+#
+EE4615 standard_load symbol
+I11
+#
 analogLib vpulse symbol
 V1
 #
 analogLib vdc symbol
 V0
-#
-analogLib cap symbol
-C0
-#
-EE4615 inverter symbol
-I0
 #ISCELL
 basic vdd symbol
 I9

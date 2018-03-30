@@ -1,13 +1,20 @@
 #
-EE4615 inverter symbol
-I4
-I7
-I6
-I5
-I3
+analogLib ipulse spectre
+I2
 #
-analogLib vpulse spectre
-V1
+analogLib res spectre
+R4
+R2
+R1
+R0
+R3
+#
+EE4615 inverter symbol
+I3
+I8
+I9
+I10
+I11
 #
 analogLib vdc spectre
 V0
