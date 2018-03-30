@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager.exe version Exp 01/19/2010 20:09 (ocelot-linux) $
 \o Sub version:		sub-version none
-\o Arguments:		-mpssession icfb28765 -mpshost ee4610.ewi.tudelft.nl 
+\o Arguments:		-mpssession icfb5770 -mpshost ee4610.ewi.tudelft.nl 
 \o Working Directory:	ee4610.ewi.tudelft.nl:/home/dpbrinkhorst/EE4615/work_space/cell_design
 \o Extended color mode (TrueColor 32 0x41) in use.
 \o Warning: LIB basic from File /home/dpbrinkhorst/EE4615/work_space/cell_design/cds.lib Line 7 redefines
@@ -11,14 +11,31 @@
 \o Or remove or comment out DEFINE basic
 \o     in /u/55/55/cadence/DesignKits/UMC090_ET4293/designkit/cds.lib
 \o to suppress this warning message.
-\o Log file is "/home/dpbrinkhorst/EE4615/work_space/cell_design/libManager.log.1".
-Opening libManager window.
-No main selection
 \o Library Manager customization server connected.
 MPS service: map window
-Main selection: EE4615 inverter
-\o Opening design file through session server.
-MPS request: edit design
+\o Log file is "/home/dpbrinkhorst/EE4615/work_space/cell_design/libManager.log.1".
+Opening libManager window.
+Main selection: EE4615 flipflop_FE
+Invoking command (editCopySimple).
+Showing dialog "Copy View" (simpleCopyDialog).
+Dialog activated Ok in "Copy Cell" (simpleCopyDialog).
+\o Performing copy
+\o 	from: EE4615 flipflop_FE  
+\o 	  to: EE4615 flipflop_RE  
+\o Processing files to be copied...
+\o Generating copy list.
+\o Checking copy destinations.
+Showing dialog "Copy Problems" (simpleCopyErrorDialog).
+Dialog activated Ok in "Copy Problems" (simpleCopyErrorDialog).
+Closing dialog "Copy Problems" (simpleCopyErrorDialog).
+\o Checking copy destinations.
+\o Beginning simple copy to library "EE4615".
+Showing dialog "Copy Monitor - 8 Files" (copyProgressDialog).
+\o Copying EE4615/flipflop_FE/schematic
+\o Copying EE4615/flipflop_FE/symbol
+\o Transfer of 8 files phase complete in  0:00:00
+Closing dialog "Copy Monitor - 8 Files" (copyProgressDialog).
+\o Copy is done
 \o Warning: LIB basic from File /home/dpbrinkhorst/EE4615/work_space/cell_design/cds.lib Line 7 redefines
 \o LIB basic from File /u/55/55/cadence/DesignKits/UMC090_ET4293/designkit/cds.lib
 \o Insert UNDEFINE basic
@@ -28,107 +45,7 @@ MPS request: edit design
 \o     in /u/55/55/cadence/DesignKits/UMC090_ET4293/designkit/cds.lib
 \o to suppress this warning message.
 MPS request: update library list
-\o Warning: LIB basic from File /home/dpbrinkhorst/EE4615/work_space/cell_design/cds.lib Line 7 redefines
-\o LIB basic from File /u/55/55/cadence/DesignKits/UMC090_ET4293/designkit/cds.lib
-\o Insert UNDEFINE basic
-\o before DEFINE basic
-\o     in /home/dpbrinkhorst/EE4615/work_space/cell_design/cds.lib
-\o Or remove or comment out DEFINE basic
-\o     in /u/55/55/cadence/DesignKits/UMC090_ET4293/designkit/cds.lib
-\o to suppress this warning message.
-MPS request: update library list
-Main selection: EE4615 flipflop schematic
+Closing dialog "Copy Cell" (simpleCopyDialog).
+Main selection: EE4615 flipflop_RE schematic
 \o Opening design file through session server.
 MPS request: edit design
-Main selection: EE4615 inverter schematic
-Invoking command (editRename).
-Showing dialog "Rename Cell EE4615/inverter" (renameDialog).
-Closing dialog "Rename Cell EE4615/inverter" (renameDialog).
-Main selection: EE4615 flipflop
-Invoking command (editRename).
-Showing dialog "Rename Cell EE4615/flipflop" (renameDialog).
-Dialog activated Ok in "Rename Cell EE4615/flipflop" (renameDialog).
-\o Renaming cell "flipflop" to "flip-flop_RE" in library "EE4615".
-Showing dialog "Rename Monitor - 7 Files" (copyProgressDialog).
-\o Copying EE4615/flipflop/schematic
-\o Copying EE4615/flipflop/layout
-\o Transfer of 7 files phase complete in  0:00:00
-Closing dialog "Rename Monitor - 7 Files" (copyProgressDialog).
-\o Performing instance update.
-\o Start running ccpCdbaUpdtr ...
-\o *WARNING* LIB basic from File /home/dpbrinkhorst/EE4615/work_space/cell_design/cds.lib Line 7 redefines
-\o ccpCdbaUpdtr ran successfully ...
-\o LIB basic from File /u/55/55/cadence/DesignKits/UMC090_ET4293/designkit/cds.lib
-\o Insert UNDEFINE basic
-\o before DEFINE basic
-\o     in /home/dpbrinkhorst/EE4615/work_space/cell_design/cds.lib
-\o Or remove or comment out DEFINE basic
-\o     in /u/55/55/cadence/DesignKits/UMC090_ET4293/designkit/cds.lib
-\o to suppress this warning message.
-\o Loading umc90nm/libInit.il ...
-\o 	Loading umc90nm/loadCxt.ile ... done!
-\o 	Loading context 'umc90nm' from library 'umc90nm' ... done!
-\o 	Loading context 'pdkUtils' from library 'umc90nm' ... done!
-\o 	Loading context 'Util' from library 'umc90nm' ... done!
-\o 	Loading context 'RF_CB_all' from library 'umc90nm' ... done!
-\o 	Loading context 'MM_other_CB' from library 'umc90nm' ... done!
-\o 	Loading context 'OIF_OCF_CB_all' from library 'umc90nm' ... done!
-\o 	Loading umc90nm/.cdsenv ... done!
-\o 	Loading umc90nm/libInitCustomExit.il ... done!
-\o Loaded umc90nm/libInit.il successfully!
-Closing dialog "Rename Cell EE4615/flipflop" (renameDialog).
-\o Warning: LIB basic from File /home/dpbrinkhorst/EE4615/work_space/cell_design/cds.lib Line 7 redefines
-\o LIB basic from File /u/55/55/cadence/DesignKits/UMC090_ET4293/designkit/cds.lib
-\o Insert UNDEFINE basic
-\o before DEFINE basic
-\o     in /home/dpbrinkhorst/EE4615/work_space/cell_design/cds.lib
-\o Or remove or comment out DEFINE basic
-\o     in /u/55/55/cadence/DesignKits/UMC090_ET4293/designkit/cds.lib
-\o to suppress this warning message.
-MPS request: update library list
-Main selection: EE4615 flip-flop_RE schematic
-\o Opening design file through session server.
-MPS request: edit design
-Main selection: EE4615 inverter schematic
-\o Opening design file through session server.
-MPS request: edit design
-\o Opening design file through session server.
-MPS request: edit design
-\o Opening design file through session server.
-MPS request: edit design
-Main selection: EE4615 flip-flop_RE schematic
-\o Opening design file through session server.
-MPS request: edit design
-Main selection: avTech
-\o Setting `Show Categories' to the on state.
-Main selection: umc90nm (category: Everything)
-\o Selecting category "mos" in library "umc90nm"
-Main selection: umc90nm (category: mos)
-Showing dialog "Cannot Edit Category" (genericDialog).
-\o Cannot get edit lock on '/u/55/55/cadence/DesignKits/UMC090_ET4293/designkit/umc90nm/mos.Cat'.
-\o Do you still want to continue?
-\o Category edit cannot be proceeded without category file being locked or checked out.
-Dialog activated No in "Cannot Edit Category" (genericDialog).
-Closing dialog "Cannot Edit Category" (genericDialog).
-\o Selecting category "mos18v" in library "umc90nm"
-Main selection: umc90nm (category: mos18v)
-\o Selecting category "mos25v" in library "umc90nm"
-Main selection: umc90nm N_25 (category: mos25v)
-\o Selecting category "mos18v" in library "umc90nm"
-Main selection: umc90nm
-\o Deselecting all categories (mos18v) in library "umc90nm"
-\o Selecting category "mos18v" in library "umc90nm"
-Main selection: umc90nm (category: mos18v)
-Showing dialog "Cannot Edit Category" (genericDialog).
-\o Cannot get edit lock on '/u/55/55/cadence/DesignKits/UMC090_ET4293/designkit/umc90nm/mos18v.Cat'.
-\o Do you still want to continue?
-\o Category edit cannot be proceeded without category file being locked or checked out.
-Dialog activated No in "Cannot Edit Category" (genericDialog).
-Closing dialog "Cannot Edit Category" (genericDialog).
-\o Selecting category "mos33v" in library "umc90nm"
-Main selection: umc90nm (category: mos33v)
-\o Selecting category "mos25v" in library "umc90nm"
-Main selection: umc90nm N_25 symbol (category: mos25v)
-\o Opening design file through session server.
-MPS request: edit design
-\o libManager is exiting.
