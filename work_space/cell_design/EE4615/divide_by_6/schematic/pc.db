@@ -1,0 +1,37 @@
+#
+EE4615 inverter symbol
+I20
+#
+EE4615 standard_load symbol
+I17
+I16
+I15
+I14
+#
+analogLib vdc symbol
+V1
+#
+analogLib vpulse symbol
+V0
+#
+EE4615 nor symbol
+I13
+I4
+I3
+#
+EE4615 flipflop_FE symbol
+I11
+I12
+I2
+#
+EE4615 flipflop_RE symbol
+I10
+I9
+I1
+I0
+#ISCELL
+basic gnd symbol
+I6
+#ISCELL
+basic vdd symbol
+I7
