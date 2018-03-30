@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      sandervanleeuw
 HostName                       icdvm15.ewi.tudelft.nl
-ProcessIdentifier              15356
-ProcessCreationTime_UTC        1522236100
-ProcessCreationTime_Readable   Wed Mar 28 13:21:40 2018 CEST
+ProcessIdentifier              32468
+ProcessCreationTime_UTC        1522397395
+ProcessCreationTime_Readable   Fri Mar 30 10:09:55 2018 CEST
 AppIdentifier                  /data/cad/Cadence/IC5/5.1.41HF143/tools/dfII/bin/icfb.exe
 OSType                         lnx86
 ReasonForPlacingEditLock       XXsave write lock
-FilePathUsedToEditLock         /home/sandervanleeuw/EE4615/work_space/cell_design/EE4615/flipflop_FE/schematic/sch.cdb
-TimeEditLocked                 Wed Mar 28 14:51:15 2018 CEST
+FilePathUsedToEditLock         /home/sandervanleeuw/EE4615/work_space/cell_design/EE4615/divide_by_6/schematic/sch.cdb
+TimeEditLocked                 Fri Mar 30 10:11:17 2018 CEST
